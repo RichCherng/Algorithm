@@ -7,8 +7,8 @@ public class Fibonacci {
 		Scanner reader = new Scanner(System.in);
 		
 		int num = Integer.parseInt(reader.nextLine());
-		for(int i = 0; i < num; i++)
-			System.out.println(fib(num));
+		
+		System.out.println(fib(num));
 	}
 	
 	public static int fib(int num){
